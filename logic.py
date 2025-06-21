@@ -140,4 +140,6 @@ def add_new_column(table_name='projects', new_column_name='photo', new_column_ty
 
 if __name__ == '__main__':
     manager = DB_Manager(DATABASE)
+    manager.create_tables()
+    manager.default_insert()
     add_new_column()
