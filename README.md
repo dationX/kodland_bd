@@ -7,3 +7,6 @@
 /delete - удалить проект,
 /update_projects - изменить проект,
 /projects - список проектов.**
+
+Пример использовани:
+![Uploading image.png…]()
